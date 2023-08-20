@@ -4,8 +4,8 @@
         "groupName": "BANKSVC-OPS-DMS",
         "profile": "",
         "roles": [
-          "E4ACaseWorker",
-          "E4ATaskWorker"
+          "BOBCVerification",
+          "BOBCVerification-Read-Only"
         ],
         "skills": [
           "CD_MAINTENANCE_GET_NEXT"
@@ -15,8 +15,7 @@
         "groupName": "BANKSVC-OPS-ERI-DCO",
         "profile": "",
         "roles": [
-          "E4ACaseWorker",
-          "E4ATaskWorker"
+          "BOBCVerification"
         ],
         "skills": [
           "REPLACE_DEBIT_CARD_GET_NEXT"
