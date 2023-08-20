@@ -1,0 +1,27 @@
+{
+  "roles": [
+    {
+      "roleName": "BOBCVerification",
+      "entitlements": [
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_case",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|write_case",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|create_case",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|update_case",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|add_document",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_documents",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|send_letter",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_activity"
+      ]
+    },
+    {
+      "roleName": "BOBCVerification-Read-Only",
+      "entitlements": [
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_case",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_documents",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_activity",
+        "omnius_case|jubobccaseverification|jubobccase|bobccase|read_items"
+      ]
+    }
+  ]
+}
+
