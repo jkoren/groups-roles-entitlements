@@ -1,0 +1,13 @@
+Role,Group,Platform,Tenant,Case Type,Case Subtype,Entitlement
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_case
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,write_case
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,create_case
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,update_case
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,add_document
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_documents
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,send_letter
+BOBCVerification,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_activity
+BOBCVerification-Read-Only,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_case
+BOBCVerification-Read-Only,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_documents
+BOBCVerification-Read-Only,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_activity
+BOBCVerification-Read-Only,this is the group,omnius_case,jubobccaseverification,jubobccase,bobccase,read_items
