@@ -27,7 +27,9 @@ with open('groups-roles-entitlements.csv', 'w', newline='') as file:
     print("Group: ",groupName)
     for role in roles:
       print(" Role: ",role)
+
       roleEntitlements = next((roleEntitlement for roleEntitlement in allRoles if roleEntitlement["roleName"] == role), None)
+
       entitlements = roleEntitlements["entitlements"]
       for entitlement in entitlements:
         print("  Entitlement: ",entitlement)
